@@ -1,0 +1,14 @@
+{
+  "name": "BoilerPlate",
+  "version": "0.0.1",
+  "description": "BoilerPlate segala kebutuhan",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Afief Yona Ramadhana",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "~4.11.1"
+  }
+}
