@@ -4,7 +4,7 @@ var http = require('http').Server(app);
 
 var inmo_template	= require('./renderEngine.js')(app);
 
-app.set("views", "./")
+app.set("views", "./game")
 app.get("/", function(req, res) {
 	app.set("view engine", "html");
 	res.render(__dirname + "/game/index.html", {});
